@@ -1,0 +1,24 @@
+.top-banner {
+  width: 100%;
+  background: url("../images/bg/bg-1.jpg") no-repeat center;
+  background-size: cover;
+  padding: 6.875rem 0 9.375rem;
+}
+
+// ==================================
+// Counter Design
+// ================================
+
+.counter-section {
+  background-color: $primary-color;
+  padding: 2.5rem 0;
+  p {
+    color: $white-color;
+    text-decoration: uppercase;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  .count-number {
+    margin-left: 100px;
+  }
+}

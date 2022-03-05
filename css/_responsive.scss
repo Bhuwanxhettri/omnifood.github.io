@@ -1,0 +1,55 @@
+@media (max-width: 991px) {
+  // custom classes
+  .text-content {
+    width: 100%;
+  }
+
+  // navbar brand
+  .navigation-wrap {
+    text-align: center;
+    background-color: $white-color;
+    .navbar-brand {
+      img {
+        height: 3.8125rem;
+      }
+    }
+
+    .nav-link {
+      line-height: 1.875rem;
+    }
+  }
+  //   banner Design
+  .top-banner {
+    padding: 3.375rem 0 9.375rem;
+  }
+}
+
+@media (max-width: 767px) {
+  // custom css
+  h1 {
+    font-size: 2.8rem;
+  }
+  h2 {
+    font-size: 2rem;
+    line-height: 2.0625rem;
+  }
+  .story-section {
+    height: auto;
+    padding: 3rem 0;
+  }
+
+  // newsletter
+  .newsletter {
+    width: 75%;
+    .main-btn {
+      width: 100%;
+      margin-top: 1rem;
+    }
+  }
+
+  // footer link
+  .footer .footer-link,
+  .footer a i {
+    padding: 0 0.7rem;
+  }
+}
